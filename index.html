@@ -18,8 +18,8 @@
                 <label for="text">Name</label>
             </div>
             <div class="input-field">
-                <input type="email" name="email" id="email" required>
-                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required onchange="topInput()">
+                <label id="label-mail" for="email">Email</label>
             </div>
             <div class="input-field">
                 <input type="text" name="mobile" id="mobile" required>
@@ -32,6 +32,16 @@
             <input type="submit" name="button" value="Send Message" class="btn-contact">
         </form>
     </div>
+
+<script type="text/javascript">
+    function topInput() {
+        let inputValue =  document.getElementById('email').value;
+        if(inputValue.length>0) {
+            return document.getElementById('label-mail').style.top = '-25px';
+            
+        }
+    }
+</script>
 
 </body>
 

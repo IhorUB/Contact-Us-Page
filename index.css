@@ -60,14 +60,20 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
 }
-.input-field input:focus + label, 
-.input-field textarea:focus + label,
-.input-field input:valid + label, 
-.input-field textarea:valid + label,
-.input-field input:active + label, 
-.input-field textarea:active + label
-.input-field input:visited + label, 
-.input-field textarea:visited + label{
+.s{
+     top: -25px;
+    font-size: 14px;
+    padding: 2px 5px;
+    background: #ff006a;
+    color: #fff;
+    border-radius: 4px;
+}
+.input-field input:focus+label,
+.input-field textarea:focus+label,
+.input-field input:valid+label,
+.input-field textarea:valid+label,
+.input-field input:active+label,
+.input-field textarea:active+label {
     top: -25px;
     font-size: 14px;
     padding: 2px 5px;
@@ -75,7 +81,8 @@ body {
     color: #fff;
     border-radius: 4px;
 }
-.btn-contact{
+
+.btn-contact {
     margin-top: 20px;
     background: #ff006a;
     color: #fff;
@@ -90,6 +97,7 @@ body {
     float: right;
     cursor: pointer;
 }
-.btn-contact:hover{
+
+.btn-contact:hover {
     background-color: #6b3aff;
 }

@@ -63,7 +63,11 @@ body {
 .input-field input:focus + label, 
 .input-field textarea:focus + label,
 .input-field input:valid + label, 
-.input-field textarea:valid + label{
+.input-field textarea:valid + label,
+.input-field input:active + label, 
+.input-field textarea:active + label
+.input-field input:visited + label, 
+.input-field textarea:visited + label{
     top: -25px;
     font-size: 14px;
     padding: 2px 5px;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,31 @@
     <title>contact-form</title>
     <link rel="stylesheet" href="index.css" type="text/css" />
 </head>
+
 <body>
     <div class="wrapper-contact">
         <h2>Contact Us</h2>
         <form>
             <div class="input-field">
-                <input type="text" name="text" required>
+                <input type="text" name="text" id="text" required>
                 <label for="text">Name</label>
             </div>
             <div class="input-field">
-                <input type="email" name="email" required>
+                <input type="email" name="email" id="email" required>
                 <label for="email">Email</label>
-            </div> 
+            </div>
             <div class="input-field">
-                <input type="text" name="mobile" required>
+                <input type="text" name="mobile" id="mobile" required>
                 <label for="mobile">Mobile</label>
-            </div> 
+            </div>
             <div class="input-field">
-                <textarea rows="5" name="text-message" required></textarea>
+                <textarea rows="5" name="text-message" id="text-message" required></textarea>
                 <label for="text-message">Message</label>
             </div>
             <input type="submit" name="button" value="Send Message" class="btn-contact">
         </form>
     </div>
-    
+
 </body>
+
 </html>
